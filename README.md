@@ -3,7 +3,9 @@ Sample for showing Tencent X5 WebView features on Xamarin.Forms.
 
 Tutorial:
 
+https://mp.weixin.qq.com/s/iHV1Nd1Grv1LCnLp1_RVCQ
 
+https://zhuanlan.zhihu.com/p/144775902
 
 QQ Group:313308215
 
