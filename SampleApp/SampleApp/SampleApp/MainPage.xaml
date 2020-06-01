@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ctrls="clr-namespace:SampleApp.Controls"
+             mc:Ignorable="d"
+             x:Class="SampleApp.MainPage">
+
+    <StackLayout>
+        <Label Text="如需要使用流量下载内核需要设置QbSdk.DownloadWithoutWifi为true"></Label>
+        <Label x:Name="LoadCoreLabel"></Label>
+        <Label x:Name="CoreDownloadProgressLabel"></Label>
+        <Label x:Name="CoreDownloadFinishLabel"></Label>
+        <Label x:Name="CoreInstallFinishLabel"></Label>
+        <Button x:Name="InitX5Env" Text="初始化X5内核" Clicked="InitX5Env_Clicked"></Button>
+        <Button x:Name="WebViewBtn" Clicked="WebViewBtn_Clicked" Text="浏览网站"></Button>
+        <Button x:Name="VideoBtn" Text="播放视频" Clicked="VideoBtn_Clicked"></Button>
+        <Button x:Name="FileBtn" Text="打开文件" Clicked="FileBtn_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
