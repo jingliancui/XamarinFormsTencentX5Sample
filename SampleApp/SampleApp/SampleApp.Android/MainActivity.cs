@@ -33,6 +33,15 @@ namespace SampleApp.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+
+            // 在调用TBS初始化、创建WebView之前进行如下配置
+            var dic = new System.Collections.Generic.Dictionary<string, Java.Lang.Object>
+            {
+                { TbsCoreSettings.TbsSettingsUseSpeedyClassloader, true },
+                { TbsCoreSettings.TbsSettingsUseDexloaderService, true },
+            };
+            QbSdk.InitTbsSettings(dic);
+
             preInitCallback = new PreInitCallback();
             tbsListener = new TbsListener();
             MessagingCenter.Subscribe<object>(this, WebPage.InitX5, o =>
@@ -58,7 +67,11 @@ namespace SampleApp.Droid
                         }                        
                     }
                 }
-                var openResult = QbSdk.OpenFileReader(this, backingFile, null, new ValueCallback());                            
+                var dic = new System.Collections.Generic.Dictionary<string, string>
+                {
+                    {"local","true" }
+                };
+                var openResult = QbSdk.OpenFileReader(this, backingFile, dic, new ValueCallback());                            
             });
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

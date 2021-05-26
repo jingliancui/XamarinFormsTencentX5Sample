@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{CFC59B4A-D469-4983-BC60-AA0A409C9943}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleApp/SampleApp.Android/MainActivity.cs">
+    <Files>
+      <File FileName="SampleApp/SampleApp/MainPage.xaml.cs" Line="7" Column="30" />
+      <File FileName="SampleApp/SampleApp.Android/MainActivity.cs" Line="6" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleApp" expanded="True" selected="True">
+            <Node name="SampleApp" expanded="True" />
+            <Node name="SampleApp.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SampleApp.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.N7GELVYDEEAEZLVK" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
