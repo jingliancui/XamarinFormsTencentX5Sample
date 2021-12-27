@@ -19,10 +19,10 @@ Xamarin Library
 
 <img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/wechatqrcode.jpg?raw=true"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/LoadLib.gif?raw=true" width="300" height="580"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/LoadLib.gif?raw=true" width="300" height="550"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/ServeNet.gif?raw=true" width="300" height="580"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/ServeNet.gif?raw=true" width="300" height="550"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/PlayVideo.gif?raw=true" width="300" height="580"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/PlayVideo.gif?raw=true" width="300" height="550"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/OpenFile.gif?raw=true" width="300" height="580"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/OpenFile.gif?raw=true" width="300" height="550"/>
