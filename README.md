@@ -21,8 +21,8 @@ Xamarin Library
 
 <img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/LoadLib.gif?raw=true" width="300" height="500"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/ServeNet.gif?raw=true"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/ServeNet.gif?raw=true" width="300" height="500"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/PlayVideo.gif?raw=true"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/PlayVideo.gif?raw=true" width="300" height="500"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/OpenFile.gif?raw=true"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/OpenFile.gif?raw=true" width="300" height="500"/>
