@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp.WebPage"
+             xmlns:ctrls="clr-namespace:SampleApp.Controls"
+             Title="网页">
+    <ContentPage.Content>
+        <ctrls:TencentWebView></ctrls:TencentWebView>
+    </ContentPage.Content>
+</ContentPage>
