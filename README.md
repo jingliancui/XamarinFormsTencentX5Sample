@@ -27,4 +27,4 @@ Xamarin Library
 
 <img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/PlayVideo.gif?raw=true" width="600" height="375"/>
 
-<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/OpenFile.gif?raw=true" width="600" height="375"/>
+<img src="https://github.com/jingliancui/XamarinFormsTencentX5Sample/blob/master/Images/PadOpenFile.gif?raw=true" width="600" height="375"/>
