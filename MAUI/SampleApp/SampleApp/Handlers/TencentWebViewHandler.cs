@@ -1,5 +1,7 @@
-﻿using Android.Views;
+﻿#if ANDROID
+using Android.Views;
 using Android.Widget;
+#endif
 using Microsoft.Maui.Handlers;
 using SampleApp.Controls;
 using System;
@@ -10,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace SampleApp.Handlers
 {
+#if ANDROID
     public class TencentWebViewHandler : ViewHandler<TencentWebView, Com.Tencent.Smtt.Sdk.WebView>
     {
         public static PropertyMapper Mapper = new PropertyMapper<TencentWebView>();
@@ -40,4 +43,5 @@ namespace SampleApp.Handlers
             return view;
         }
     }
+#endif
 }

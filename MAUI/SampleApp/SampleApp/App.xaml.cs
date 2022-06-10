@@ -1,6 +1,7 @@
-﻿using Com.Tencent.Smtt.Export.External;
+﻿#if ANDROID
+using Com.Tencent.Smtt.Export.External;
 using Com.Tencent.Smtt.Sdk;
-
+#endif
 namespace SampleApp;
 
 public partial class App : Application

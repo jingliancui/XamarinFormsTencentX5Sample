@@ -1,4 +1,6 @@
-﻿using Com.Tencent.Smtt.Sdk;
+﻿#if ANDROID
+using Com.Tencent.Smtt.Sdk;
+#endif
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace SampleApp.X5Stuff
 {
+#if ANDROID
     public class TencentTbsListener : Java.Lang.Object, ITbsListener
     {
         public event EventHandler<int> DownloadFinished;
@@ -28,4 +31,5 @@ namespace SampleApp.X5Stuff
             InstallFinished?.Invoke(this, p0);
         }
     }
+#endif
 }

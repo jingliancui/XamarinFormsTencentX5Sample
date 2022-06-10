@@ -16,8 +16,10 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			})						
             .ConfigureMauiHandlers(handlers => 
-			{				
-				handlers.AddHandler(typeof(TencentWebView), typeof(TencentWebViewHandler));
+			{
+#if ANDROID
+                handlers.AddHandler(typeof(TencentWebView), typeof(TencentWebViewHandler));
+#endif
 			});
 
 		return builder.Build();

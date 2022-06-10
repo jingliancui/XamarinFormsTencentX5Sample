@@ -1,5 +1,7 @@
-﻿using Android.App;
+﻿#if ANDROID
+using Android.App;
 using Com.Tencent.Smtt.Sdk;
+#endif
 using SampleApp.X5Stuff;
 
 namespace SampleApp;
@@ -104,7 +106,9 @@ public partial class MainPage : ContentPage
 
     private void VideoBtn_Clicked(object sender, EventArgs e)
     {
+#if ANDROID
         var mainActivity = (Platform.CurrentActivity as MainActivity);
         TbsVideo.OpenVideo(mainActivity, "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4");
+#endif
     }
 }
